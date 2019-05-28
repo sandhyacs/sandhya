@@ -1,0 +1,1950 @@
+[
+  {
+    "paths": [
+      "group1-shard1of2",
+      "group1-shard2of2"
+    ],
+    "weights": [
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          15
+        ],
+        "quantization": {
+          "scale": 0.0024826762722987756,
+          "min": -0.34012664930493225,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          15
+        ],
+        "quantization": {
+          "scale": 0.0011454264907275928,
+          "min": -0.15692342922968022,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/ClassPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          1024,
+          30
+        ],
+        "quantization": {
+          "scale": 0.0029822217483146517,
+          "min": -0.44435104049888313,
+          "dtype": "uint8"
+        },
+        "name": "BoxPredictor_1/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          30
+        ],
+        "quantization": {
+          "scale": 0.0008561325716037377,
+          "min": -0.12328309031093822,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_1/ClassPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          30
+        ],
+        "quantization": {
+          "scale": 0.001330579729641185,
+          "min": -0.1703142053940717,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_2/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          30
+        ],
+        "quantization": {
+          "scale": 0.0003228681344611972,
+          "min": -0.04520153882456761,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_2/ClassPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          30
+        ],
+        "quantization": {
+          "scale": 0.000889176860743878,
+          "min": -0.11737134561819189,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_3/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          30
+        ],
+        "quantization": {
+          "scale": 0.00016165089373495066,
+          "min": -0.023762681379037746,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_3/ClassPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          30
+        ],
+        "quantization": {
+          "scale": 0.0006673962462182139,
+          "min": -0.08409192702349495,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_4/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          30
+        ],
+        "quantization": {
+          "scale": 0.00008313025840941597,
+          "min": -0.012386408503002981,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_4/ClassPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          128,
+          30
+        ],
+        "quantization": {
+          "scale": 0.0007714559342346939,
+          "min": -0.09334616804239797,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_5/ClassPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          30
+        ],
+        "quantization": {
+          "scale": 0.0001127623277259808,
+          "min": -0.015335676570733389,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_5/ClassPredictor/biases"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 5,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/Reshape_1/shape/2"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          3
+        ],
+        "quantization": {
+          "scale": 0.00392156862745098,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Slice/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          3
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Slice/size"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.0033333334140479565,
+          "dtype": "uint8"
+        },
+        "name": "ConstantFolding/Postprocessor/truediv_recip"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.10000000149011612,
+          "dtype": "uint8"
+        },
+        "name": "ConstantFolding/Postprocessor/Decode/truediv_recip"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1917,
+          4
+        ],
+        "quantization": {
+          "scale": 0.007394940479128968,
+          "min": -0.44369642874773807,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/ExpandDims"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.5,
+          "dtype": "uint8"
+        },
+        "name": "ConstantFolding/Postprocessor/Decode/truediv_4_recip"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.0196078431372549,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Reshape_1/shape"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.20000000298023224,
+          "dtype": "uint8"
+        },
+        "name": "ConstantFolding/Postprocessor/Decode/truediv_2_recip"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          12
+        ],
+        "quantization": {
+          "scale": 0.007661765229468252,
+          "min": -1.0113530102898092,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          12
+        ],
+        "quantization": {
+          "scale": 0.00852584581749112,
+          "min": -1.560229784600875,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          1024,
+          24
+        ],
+        "quantization": {
+          "scale": 0.004382929614945954,
+          "min": -0.565397920328028,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_1/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          24
+        ],
+        "quantization": {
+          "scale": 0.009734490338493796,
+          "min": -1.1973423116347368,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_1/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          24
+        ],
+        "quantization": {
+          "scale": 0.0031586615478291233,
+          "min": -0.4516886013395646,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_2/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          24
+        ],
+        "quantization": {
+          "scale": 0.009767044525520475,
+          "min": -0.9571703635010066,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_2/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          24
+        ],
+        "quantization": {
+          "scale": 0.0026130323316536697,
+          "min": -0.3187899444617477,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_3/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          24
+        ],
+        "quantization": {
+          "scale": 0.010332885442995557,
+          "min": -1.4156053056903912,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_3/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          24
+        ],
+        "quantization": {
+          "scale": 0.002346972858204561,
+          "min": -0.27459582440993363,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_4/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          24
+        ],
+        "quantization": {
+          "scale": 0.005129361853880041,
+          "min": -0.9386732192600475,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_4/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          128,
+          24
+        ],
+        "quantization": {
+          "scale": 0.0019330510906144685,
+          "min": -0.23776528414557963,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_5/BoxEncodingPredictor/weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          24
+        ],
+        "quantization": {
+          "scale": 0.0109924550149955,
+          "min": -1.341079511829451,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_5/BoxEncodingPredictor/biases"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.007843137718737125,
+          "dtype": "uint8"
+        },
+        "name": "Preprocessor/mul/x"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/TensorArrayStack_4/range/start"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/scale_logits/y"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          3,
+          32
+        ],
+        "quantization": {
+          "scale": 0.05527249130548215,
+          "min": -5.637794113159179,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_0/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          32
+        ],
+        "quantization": {
+          "scale": 0.025766023000081382,
+          "min": -2.885794576009115,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_0/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          32,
+          1
+        ],
+        "quantization": {
+          "scale": 0.03704358830171473,
+          "min": -4.630448537714342,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_1_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          32
+        ],
+        "quantization": {
+          "scale": 0.11815197748296401,
+          "min": 0.5312169790267944,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_1_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          32
+        ],
+        "quantization": {
+          "scale": 0.027278590202331542,
+          "min": -1.2275365591049194,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_1_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          32,
+          64
+        ],
+        "quantization": {
+          "scale": 0.04402629440906001,
+          "min": -5.6793919787687415,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_1_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          64
+        ],
+        "quantization": {
+          "scale": 0.2821061377431832,
+          "min": -35.82747949338427,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_1_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          64,
+          1
+        ],
+        "quantization": {
+          "scale": 0.010926498151292988,
+          "min": -1.4313712578193816,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_2_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          64
+        ],
+        "quantization": {
+          "scale": 0.07316798462587244,
+          "min": -1.9023676002726835,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_2_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          64
+        ],
+        "quantization": {
+          "scale": 0.032344640002531164,
+          "min": -1.0350284800809972,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_2_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          64,
+          128
+        ],
+        "quantization": {
+          "scale": 0.01723144381654029,
+          "min": -1.8954588198194318,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_2_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.14229765499339384,
+          "min": -19.921671699075137,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_2_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          128,
+          1
+        ],
+        "quantization": {
+          "scale": 0.017290828742232978,
+          "min": -2.1094811065524235,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_3_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.17836185670366475,
+          "min": 0.6062084436416626,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_3_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.06520381815293257,
+          "min": -7.10721617866965,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_3_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          128,
+          128
+        ],
+        "quantization": {
+          "scale": 0.018519090203677906,
+          "min": -2.2593290048487047,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_3_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.10795031341851927,
+          "min": -7.880372879551906,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_3_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          128,
+          1
+        ],
+        "quantization": {
+          "scale": 0.004394992893817378,
+          "min": -0.5098191756828159,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_4_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.0846678545662001,
+          "min": 0.40415433049201965,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_4_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.05481792337754193,
+          "min": -4.111344253315645,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_4_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          128,
+          256
+        ],
+        "quantization": {
+          "scale": 0.014422974866979263,
+          "min": -1.3269136877620922,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_4_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.06996331682392196,
+          "min": -8.395598018870635,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_4_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          256,
+          1
+        ],
+        "quantization": {
+          "scale": 0.011638776928770776,
+          "min": -1.3733756775949515,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_5_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.0207554652410395,
+          "min": 0.3612145483493805,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_5_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.04739077885945638,
+          "min": -6.113410472869873,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_5_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          256
+        ],
+        "quantization": {
+          "scale": 0.009495251318987678,
+          "min": -1.1584206609164966,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_5_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.052834574381510416,
+          "min": -5.864637756347656,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_5_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          256,
+          1
+        ],
+        "quantization": {
+          "scale": 0.004118349154790243,
+          "min": -0.5559771358966827,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_6_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.04053392012914022,
+          "min": 0.49918895959854126,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_6_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.052469335817823225,
+          "min": -4.8271788952397365,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_6_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          512
+        ],
+        "quantization": {
+          "scale": 0.008715283636953317,
+          "min": -0.9935423346126782,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_6_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.05346147499832452,
+          "min": -5.987685199812346,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_6_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.009900489975424373,
+          "min": -1.2573622268788953,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_7_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.04250991741816203,
+          "min": 0.6321561932563782,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_7_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.05208867577945485,
+          "min": -6.250641093534582,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_7_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          512
+        ],
+        "quantization": {
+          "scale": 0.011642239608016669,
+          "min": -1.8860428164987004,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_7_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.038236810646805106,
+          "min": -5.161969437318689,
+          "dtype": "uint8"
+        },
+        "name": "/MobilenetV1/Conv2d_7_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.007366783478680779,
+          "min": -0.7661454817828011,
+          "dtype": "uint8"
+        },
+        "name": "Conv2d_8_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.09105062297746247,
+          "min": 0.7191257476806641,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_8_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.1261700387094535,
+          "min": -24.85549762576234,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_8_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          512
+        ],
+        "quantization": {
+          "scale": 0.010947743584127987,
+          "min": -1.0728788712445427,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_8_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.04975757785871917,
+          "min": -5.075272941589355,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_8_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.006844574797387217,
+          "min": -0.7665923773073683,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_9_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.10846873942543478,
+          "min": 0.6794435381889343,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_9_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.06389271605248545,
+          "min": -6.964306049720914,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_9_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          512
+        ],
+        "quantization": {
+          "scale": 0.010777760954464184,
+          "min": -1.3903311631258797,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_9_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.06504593830482633,
+          "min": -7.3501910284453755,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_9_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.006464028124715767,
+          "min": -0.8403236562130497,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_10_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.0925462566170038,
+          "min": 0.4864303469657898,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_10_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.08182193531709558,
+          "min": -12.027824491613051,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_10_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          512
+        ],
+        "quantization": {
+          "scale": 0.01324319932975021,
+          "min": -2.079182294770783,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_10_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.07264709098666322,
+          "min": -8.354415463466271,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_10_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.007519967415753533,
+          "min": -0.9324759595534381,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_11_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.06319823732563093,
+          "min": 0.7101235389709473,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_11_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.06935111962112726,
+          "min": -10.263965703926836,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_11_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          512
+        ],
+        "quantization": {
+          "scale": 0.013576337870429544,
+          "min": -1.371210124913384,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_11_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.09514713287353516,
+          "min": -14.272069931030273,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_11_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          512,
+          1
+        ],
+        "quantization": {
+          "scale": 0.003886289105695837,
+          "min": -0.48578613821197963,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_12_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.16373032378215416,
+          "min": 0.4719577431678772,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_12_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.041560186124315446,
+          "min": -3.4910556344424974,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_12_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          1024
+        ],
+        "quantization": {
+          "scale": 0.010502988216923732,
+          "min": -1.3548854799831613,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_12_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1024
+        ],
+        "quantization": {
+          "scale": 0.1462379343369428,
+          "min": -21.643214281867532,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_12_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          1024,
+          1
+        ],
+        "quantization": {
+          "scale": 0.004576433639900357,
+          "min": -0.5400191695082421,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_depthwise/depthwise_weights"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1024
+        ],
+        "quantization": {
+          "scale": 0.199899484129513,
+          "min": 0.8861280679702759,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_depthwise/BatchNorm/FusedBatchNorm/Scaled"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1024
+        ],
+        "quantization": {
+          "scale": 0.1697188508276846,
+          "min": -9.504255646350337,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_depthwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          1024,
+          1024
+        ],
+        "quantization": {
+          "scale": 0.01783767307505888,
+          "min": -2.3545728459077724,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1024
+        ],
+        "quantization": {
+          "scale": 0.1578030829336129,
+          "min": -26.510917932846965,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          1024,
+          256
+        ],
+        "quantization": {
+          "scale": 0.0024833093671237723,
+          "min": -0.2955138146877289,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.011903192015255198,
+          "min": -2.0711554106544043,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_2_1x1_256/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          256,
+          512
+        ],
+        "quantization": {
+          "scale": 0.018401383418662876,
+          "min": -2.226567393658208,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          512
+        ],
+        "quantization": {
+          "scale": 0.023903669562994265,
+          "min": -1.6732568694095986,
+          "dtype": "uint8"
+        },
+        "name":"MobilenetV1/Conv2d_13_pointwise_2_Conv2d_2_3x3_s2_512/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          512,
+          128
+        ],
+        "quantization": {
+          "scale": 0.002218211632148892,
+          "min": -0.3038949936043982,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.008507773689195221,
+          "min": -0.8848084636763031,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_3_1x1_128/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          128,
+          256
+        ],
+        "quantization": {
+          "scale": 0.01632965779771992,
+          "min": -1.6819547531651515,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.023369234683466893,
+          "min": -1.6825848972096162,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_3_3x3_s2_256/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          128
+        ],
+        "quantization": {
+          "scale": 0.0032756409224341896,
+          "min": -0.32428845132098477,
+          "dtype": "uint8"
+        },
+        "name": "obilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.0197633939630845,
+          "min": -2.648294791053323,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_4_1x1_128/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          128,
+          256
+        ],
+        "quantization": {
+          "scale": 0.014140864447051404,
+          "min": -1.7393263269873227,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          256
+        ],
+        "quantization": {
+          "scale": 0.018814559076346604,
+          "min": -1.0159861901227165,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_4_3x3_s2_256/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          1,
+          1,
+          256,
+          64
+        ],
+        "quantization": {
+          "scale": 0.0035671585915135404,
+          "min": -0.43876050675616546,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          64
+        ],
+        "quantization": {
+          "scale": 0.011237058452531402,
+          "min": -1.1349429037056717,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_1_Conv2d_5_1x1_64/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          3,
+          3,
+          64,
+          128
+        ],
+        "quantization": {
+          "scale": 0.012865529808343625,
+          "min": -1.6982499347013584,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/Conv2D/merged_input"
+      },
+      {
+        "dtype": "float32",
+        "shape": [
+          128
+        ],
+        "quantization": {
+          "scale": 0.05214669844683479,
+          "min": -5.475403336917653,
+          "dtype": "uint8"
+        },
+        "name": "MobilenetV1/Conv2d_13_pointwise_2_Conv2d_5_3x3_s2_128/BatchNorm/FusedBatchNorm/Offset"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/Reshape_1/shape/1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/TensorArrayStack_4/range/delta"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 2,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/strided_slice_1/stack_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 4,
+          "dtype": "uint8"
+        },
+        "name": "Prediction/BoxPredictor_0/Reshape/shape/3"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 2,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/ExpandDims_1/dim"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/TensorArrayUnstack_1/strided_slice/stack"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/TensorArrayUnstack_1/strided_slice/stack_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          3
+        ],
+        "quantization": {
+          "scale": 1.1647058823529413,
+          "min": 3,
+          "dtype": "uint8"
+        },
+        "name": "Preprocessor/map/while/ResizeImage/stack_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Preprocessor/map/while/ResizeImage/resize_images/ExpandDims/dim"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 300,
+          "dtype": "uint8"
+        },
+        "name": "Preprocessor/map/while/ResizeImage/stack"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 1,
+          "dtype": "uint8"
+        },
+        "name": "Preprocessor/map/while/add/y"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.00392156862745098,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Decode/transpose/sub_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.00392156862745098,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Decode/get_center_coordinates_and_sizes/transpose/sub_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.00392156862745098,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/Decode/transpose_1/sub_1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "ConstantFolding/Postprocessor/BatchMultiClassNonMaxSuppression/ones/packed_const_axis"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/mul_4/x"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/ones_4/Const"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.00392156862745098,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Slice_1/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.00784313725490196,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Slice_2/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.011764705882352941,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Slice_3/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Slice/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          2
+        ],
+        "quantization": {
+          "scale": 0.0196078431372549,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/Reshape_1/shape"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 100,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Minimum_4/x"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          3
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/Slice/begin"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/stack_1/1"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          3
+        ],
+        "quantization": {
+          "scale": 0.0196078431372549,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/Reshape/shape"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.6000000238418579,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/non_max_suppression/iou_threshold"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0.30000001192092896,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/non_max_suppression/score_threshold"
+      },
+      {
+        "dtype": "float32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/GreaterEqual/y"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "quantization": {
+          "scale": 1,
+          "min": -1,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/ones_4/Reshape/shape"
+      },
+      {
+        "dtype": "int32",
+        "shape": [],
+        "quantization": {
+          "scale": 1,
+          "min": 0,
+          "dtype": "uint8"
+        },
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/SortByField/Gather/GatherV2_1/axis"
+      },
+      {
+        "dtype": "int32",
+        "shape": [
+          1
+        ],
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Const_1",
+        "quantization": {
+          "min": 0,
+          "scale": 1,
+          "dtype": "uint8"
+        }
+      },
+      {
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/strided_slice_9/stack_1",
+        "shape": [
+          1
+        ],
+        "dtype": "int32",
+        "quantization": {
+          "min": 1,
+          "scale": 1,
+          "dtype": "uint8"
+        }
+      },
+      {
+        "name": "Postprocessor/BatchMultiClassNonMaxSuppression/map/while/MultiClassNonMaxSuppression/Area/split/split_dim",
+        "shape": [],
+        "dtype": "int32",
+        "quantization": {
+          "min": 1,
+          "scale": 1,
+          "dtype": "uint8"
+        }
+      },
+      {
+        "name": "Output/extra_dim",
+        "shape": [
+          1,
+          1,
+          4
+        ],
+        "dtype": "float32"
+      }
+    ]
+  }
+]
